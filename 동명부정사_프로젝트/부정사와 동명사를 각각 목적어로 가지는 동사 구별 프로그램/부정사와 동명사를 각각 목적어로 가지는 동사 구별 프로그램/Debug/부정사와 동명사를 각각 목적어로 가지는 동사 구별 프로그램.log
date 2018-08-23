@@ -1,0 +1,19 @@
+﻿  temp.c
+  사용자 정의 구조체.c
+  사용자 정의 함수.c
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(35): warning C4013: '_kbhit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(36): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(100): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(194): warning C4013: 'cursor'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(196): warning C4013: '_getche'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(248): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(293): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(345): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(400): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  main.c
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\main.c(13): warning C4013: 'start_UI'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\main.c(14): warning C4013: 'open_controler'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  인터넷 정의 함수.c
+  코드를 생성하고 있습니다...
+c:\users\karl\desktop\working\major\personalstudying\c\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\사용자 정의 함수.c(182): warning C4716: 'game_page': 값을 반환해야 합니다.
+  부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램.vcxproj -> C:\Users\Karl\Desktop\Working\Major\PersonalStudying\C\프로젝트\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램\Debug\부정사와 동명사를 각각 목적어로 가지는 동사 구별 프로그램.exe
