@@ -1,8 +1,0 @@
-import requests
-from bs4 import BeautifulSoup
-
-URL = "http://dsm2015.cafe24.com"
-response = requests.get(URL)# 200 상태 코드를 반환하며, 동시에 HTML코드를 가지고 있다
-soup = BeautifulSoup(response.text,'lxml')
-
-print(soup.text)
