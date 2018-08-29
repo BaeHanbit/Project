@@ -19,15 +19,22 @@ db = connection.Menu
 collection = db.meal
 
 num=1
+
 for i in meals:
     collection.insert_one({str(i):meals[i]})
     num+=1
 #############################몽고 디비 연계하여 데이터 입력하기#####################
 #############################몽고 디비 연계하여 데이터 받아오기#####################
-collection = db.emp
-docs = collection.find()
+db=connection.get_database('Menu')
+collection=db.get_collection('meal')
+result = list(collection.find())
 
-for i in docs:
-    food=docs[i]
+dinner = result[0]['dinner']
+breakfast = result[1]['breakfast']
+lunch = result[2]['lunch']
 
-print(food)
+print(breakfast, lunch,dinner, sep="\n")
+#############################몽고 디비 연계하여 데이터 받아오기#####################
+#################################몽고 디비 데이터 삭제하기#########################
+collection.remove({"ObjectId":{"$gt":1}})
+#################################몽고 디비 데이터 삭제하기#########################
