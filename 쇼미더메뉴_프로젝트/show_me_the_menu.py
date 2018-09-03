@@ -1,10 +1,8 @@
-from selenium import webdriver
-from bs4 import BeautifulSoup
-import json
-from datetime import datetime
-import requests
-import pymongo
-
+import requests#크롤링
+from bs4 import BeautifulSoup#크롤링
+import json# 데이터 형식
+from datetime import datetime# 날자
+import pymongo#데이터베이스 연동
 #############################웹 페이지에서 정보 받아오기############################
 if(datetime.today().month<10):
     URL = "http://dsm2015.cafe24.com/v2/meal/" + str(datetime.today().year) + "-0" + str(datetime.today().month) + '-' + str(datetime.today().day)
@@ -33,8 +31,11 @@ dinner = result[0]['dinner']
 breakfast = result[1]['breakfast']
 lunch = result[2]['lunch']
 
-print(breakfast, lunch,dinner, sep="\n")
+print(breakfast,lunch,dinner, sep="\n")
 #############################몽고 디비 연계하여 데이터 받아오기#####################
 #################################몽고 디비 데이터 삭제하기#########################
-collection.remove({"ObjectId":{"$gt":1}})
-#################################몽고 디비 데이터 삭제하기#########################
+collection.delete_many({})
+################################몽고 디비 데이터 삭제하기##########################
+###############################파이썬 데이터 html에 옮기기#########################
+
+###############################파이썬 데이터 html에 옮기기#########################

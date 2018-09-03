@@ -5,6 +5,9 @@
     <title>Menu!?</title>
 </head>
 <body>
+    <?php
+        echo("Hello");
+    ?>
     <div id="base">
         <div id="head-wrapper">
             <span id="title">Show me the Menu</span> 
